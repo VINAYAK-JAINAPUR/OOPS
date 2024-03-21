@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int a,b,c,d,andd,orr,bin_a,sum,bin_b,un;
+    cout<<"enter a and b value"<<endl;
+    cin>>a;
+    cin>>b;
+    andd= a&b;  //logical operators;
+    orr=a|b;
+    cout<<"and operator="<<andd<<endl<<"or operator="<<orr<<endl;
+    un=a++;  //urnary operators;
+    cout<<"urnary operator="<<un<<endl;
+    sum=a+b;  //arithmetic operators;
+    cout<<"sum is="<<sum<<endl;
+    cout<<"enter c and d for bitwise"<<endl;
+    cin>>c;
+    cin>>d;
+     bin_a = ~c;  //bitwise operators;
+    bin_b= c^d;
+    cout<<"1's complement="<<bin_a<<endl<<"xor of c and d="<<bin_b<<endl;
+}

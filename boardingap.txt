@@ -1,0 +1,32 @@
+// Online C++ compiler to run C++ program online
+#include <iostream>
+using namespace std;
+int main() {
+    // Write C++ code here
+    int lug,ID;
+    string name,country,a_time,d_time,c_report;
+    cout << "enter name"<<endl;
+    cin>>name;
+    cout<<"enter country"<<endl;
+    cin>>country;
+     cout << "enter ID"<<endl;
+    cin>>ID;
+    cout<<"enter Arrival Time"<<endl;
+    cin>>a_time;
+     cout << "enter Departure Time"<<endl;
+    cin>>d_time;
+    cout<<"enter Luggage numbers"<<endl;
+    cin>>lug;
+     cout << "enter covid report"<<endl;
+    cin>>c_report;
+    if (c_report == "pos")
+    {
+        cout<<"You are not allowed to travel";
+    }
+    else if (c_report == "neg")
+    {
+        cout<<"have a safe journey";
+    }
+
+    return 0;
+}

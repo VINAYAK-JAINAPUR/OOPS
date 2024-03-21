@@ -1,0 +1,23 @@
+// Online C++ compiler to run C++ program online
+#include <iostream>
+using namespace std;
+int main() {
+    // Write C++ code here
+    int k,e,g,m,h,avg,sum;
+    float percentage;
+    cout << "enter kannnada marks"<<endl;
+    cin>>k;
+    cout << "enter english marks"<<endl;
+    cin>>e;
+    cout << "enter german marks"<<endl;
+    cin>>g;
+    cout << "enter maths marks"<<endl;
+    cin>>m;
+    cout << "enter hindi marks"<<endl;
+    cin>>h;
+    avg = (k+e+g+m+h)/5 ;
+    cout<<"avg is "<< avg<<endl;
+    cout<<"percentage is " << avg << "%";
+
+    return 0;
+}

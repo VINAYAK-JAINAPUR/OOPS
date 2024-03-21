@@ -1,0 +1,11 @@
+// Online C++ compiler to run C++ program online
+#include <iostream>
+using namespace std;
+int main() {
+    int cel,F;
+    cout<<"enter the temp in celsius: ";
+    cin>>cel;
+    F=((9.0/5.0) * cel) + 32;
+    cout<<"The "<<cel<<"in farenheit is: "<<F<<endl;
+    return 0;
+}

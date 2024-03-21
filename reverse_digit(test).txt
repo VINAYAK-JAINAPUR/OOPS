@@ -1,0 +1,16 @@
+// Online C++ compiler to run C++ program online
+#include <iostream>
+using namespace std;
+int main() {
+    int n,r,res=0;
+    cout<<"enter the number";
+    cin>>n;
+    while(n>0)
+    {
+        r=n%10;
+        res=res*10+r;
+        n=n/10;
+    }
+    cout<<"the reverse is : "<<res<<endl;
+    return 0;
+}

@@ -1,0 +1,21 @@
+// Online C++ compiler to run C++ program online
+#include <iostream>
+using namespace std;
+int main() {
+    // Write C++ code here
+    int a,b,c;
+    cout<<"enter a"<<endl;
+    cin>>a;
+    cout<<"enter b"<<endl;
+    cin>>b;
+    cout<<"enter c"<<endl;
+    cin>>c;
+    if (a>b && a>c)
+    cout<<a<<" is greater among 3 which is a"<<endl;
+    else if (b>c && b>a)
+    cout<<b<<" is greater among 3 which is b"<<endl;
+    else
+    cout<<c<<" is greater among 3 which is c"<<endl;
+     
+    return 0;
+}	
